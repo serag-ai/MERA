@@ -3,32 +3,25 @@
 
 **MERA** (Medical Electronic Records Assistant) is a Retrieval-Augmented Generation (RAG)-based AI system designed to improve electronic health record (EHR) analysis through clinical question answering, medical report summarization, and patient similarity search. It integrates modern LLMs with a domain-specific retrieval pipeline, aiming to deliver accurate, grounded, and explainable insights to healthcare professionals.
 
+🚧 **Under Development** 🚧  
 ---
 
 ## 🔬 Paper
 
-**Citation**:  
-Ibrahim, A.; Khalili, A.; Arabi, M.; Sattar, A.; Hosseini, A.; Serag, A.  
-MERA: Medical Electronic Records Assistant. *Mach. Learn. Knowl. Extr.* 2025.  
-[DOI](https://doi.org/10.3390/make1010000)
 
-📄 [Read the Paper (PDF)](./MERA__Medical_Electronic_Records_Assistant.pdf)
 
 ---
 
 ## 🧠 Features
 
 - **💬 Clinical Question Answering**  
-  Accurately answer queries related to single or multiple patients using retrieved EHR data.
+  Answers medical questions about one or more patients based on their health records.
 
 - **📄 Report Summarization**  
-  Generate structured summaries of synthetic or real EHRs using LLMs.
+  Summarizes medical reports into clear, and structured overviews.
 
 - **🔍 Similarity Search**  
-  Identify semantically similar patient cases to support personalized diagnostics and treatment.
-
-- **🔎 Re-ranking with Cross-Encoders**  
-  Improves retrieval accuracy by semantically aligning questions with retrieved document chunks.
+  Finds patients with similar cases to support diagnosis and treatment decisions.
 
 - **📈 Evaluated on Real & Synthetic EHRs**  
   Tested on synthetic data generated via Mistral, Qwen, and LLaMA, as well as real MIMIC-IV de-identified records.
