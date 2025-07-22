@@ -1,0 +1,13 @@
+torch
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-huggingface
+langgraph
+langsmith
+sentence-transformers
+pandas
+matplotlib
+scikit-learn
+rouge

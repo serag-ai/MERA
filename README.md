@@ -3,17 +3,17 @@
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-blue.svg)](https://huggingface.co/serag-ai/datasets/Synthetic-EHR-Llama) 
 
 
+🚧 **Under Development** 🚧  
 
 # MERA: Medical Electronic Records Assistant
 
 **MERA** (Medical Electronic Records Assistant) is a Retrieval-Augmented Generation (RAG)-based AI system designed to improve electronic health record (EHR) analysis through clinical question answering, medical report summarization, and patient similarity search. It integrates modern LLMs with a domain-specific retrieval pipeline, aiming to deliver accurate, grounded, and explainable insights to healthcare professionals.
 
-🚧 **Under Development** 🚧  
 
 ---
 
  <p align="center">
-  <img align="center" src="assets/intro.png" width="800px" alt=" Graphical illustration of the MERA architecture. It comprises three modules: indexing the medical records, retrieve based on the query from the user, and generate response using LLM based on the retrieval document and prompt."/>
+  <img align="center" src="./assets/intro.png" width="800px" alt=" Graphical illustration of the MERA architecture. It comprises three modules: indexing the medical records, retrieve based on the query from the user, and generate response using LLM based on the retrieval document and prompt."/>
  </p>
 
 ## 🧠 Features
