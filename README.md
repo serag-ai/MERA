@@ -65,16 +65,6 @@ source mera-env/bin/activate
 pip install -r requirements.txt
 ```
 
-Core dependencies: `torch`, `langchain`, `langgraph`, `faiss-cpu`, `sentence-transformers`, and `langchain-openai`. MERA loads credentials from a `.env` file in the project root:
-
-```env
-OPENAI_API_KEY=your_openai_key
-HUGGINGFACE_API_KEY=your_huggingface_token
-LANGCHAIN_API_KEY=your_langsmith_key   # optional, for LangSmith tracing
-```
-
-Do not commit your `.env` file; ensure it is listed in `.gitignore`.
-
 ## Usage
 
 ### Querying Records
