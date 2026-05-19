@@ -1,7 +1,7 @@
 # MERA: Medical Electronic Records Assistant
 
 <p align="center">
-  <img src="assets/banner.png" alt="MERA: Medical Electronic Records Assistant" width="100%">
+  <img src="assets/mera-banner.png" alt="MERA: Medical Electronic Records Assistant" width="100%">
 </p>
 
 <h1 align="center">MERA: Medical Electronic Records Assistant</h1>
