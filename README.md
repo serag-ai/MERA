@@ -1,10 +1,12 @@
-# MERA: Medical Electronic Records Assistant
-
 <p align="center">
   <img src="assets/mera-banner.png" alt="MERA: Medical Electronic Records Assistant" width="100%">
 </p>
 
 <h1 align="center">MERA: Medical Electronic Records Assistant</h1>
+
+<p align="center">
+  <em>Grounded, explainable AI that turns electronic health records into reliable answers — clinical question answering, summarization, and patient similarity search in one RAG framework.</em>
+</p>
 
 <p align="center">
   <a href="https://www.mdpi.com/2504-4990/7/3/73"><img src="https://img.shields.io/badge/MDPI%20MAKE-View%20Paper-orange" alt="Paper"></a>
