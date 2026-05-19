@@ -90,14 +90,6 @@ reset_context()
 
 When only a numeric ID is given (for example, `patient 10`), MERA searches all sources, auto-resolves if the ID is unique, and prompts for selection if it is ambiguous.
 
-### Models Used
-
-| Model | Purpose |
-|-------|---------|
-| `all-mpnet-base-v2` | Query and document embeddings (768-dim) |
-| `ms-marco-MiniLM-L-6-v2` | Cross-encoder re-ranking |
-| OpenAI LLM | Answer generation and synthesis |
-
 ## Datasets
 
 Synthetic EHR datasets are publicly available on Hugging Face. All were generated with advanced open LLMs and validated for the tasks reported in the paper.
